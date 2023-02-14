@@ -1,0 +1,129 @@
+html{
+    scroll-behavior: smooth;
+}
+
+
+.background
+{
+    
+    background-color: #20262E;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+}
+
+.navbnd
+{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: #E9E8E8;
+}
+.navbnd:hover
+{
+    color: red;
+}
+
+.text
+{
+    text-decoration: none;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.text:hover{
+    color: red;
+    font-weight: bold;
+}
+
+.head
+{
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    text-align: center;
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.card:hover
+{
+    background-color: rgba(161, 133, 80, 0.5);
+    transition: 1s ease;
+    transform: scale(0.9);
+}
+
+
+.cards
+{
+    margin-top: 30px;
+}
+
+.cbhead
+{
+    font-family:'Times New Roman', Times, serif; 
+    font-size: xx-large; 
+    text-align: center;
+}
+
+.cbpara
+{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+    text-align: justify;
+}
+
+.backimg
+{
+    background-image: url(images/backimg.jpg);
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    margin-top: 40px;
+    display: flex;
+}
+
+.imgtxt
+{
+    margin-top: 31rem;
+    margin-left: 5rem;
+    color: rgba(0, 0, 0, 0.842);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+/* .imgbut
+{
+    margin-top: 32rem;
+    margin-left: 5rem
+    color: rgba(14, 13, 13, 0.842);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+} */
+
+.footer
+{
+    position: sticky;
+    background-color: rgb(163, 88, 88);
+    margin-bottom: 0px;
+    margin-top: 30px;
+    color: white;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 1px;
+}
+
+.form
+{
+    margin-top: 20px;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    background-color: rgba(0, 0, 0, 0.185);
+}
+
+.formbtn
+{
+    font-size: 20px;
+    font-weight: bold;
+}
